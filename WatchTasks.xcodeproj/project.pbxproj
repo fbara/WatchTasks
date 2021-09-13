@@ -15,6 +15,8 @@
 		AD518D2B26EFD91900F4E1B4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D2A26EFD91900F4E1B4 /* ComplicationController.swift */; };
 		AD518D2D26EFD91B00F4E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518D2C26EFD91B00F4E1B4 /* Assets.xcassets */; };
 		AD518D3026EFD91B00F4E1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518D2F26EFD91B00F4E1B4 /* Preview Assets.xcassets */; };
+		AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4326EFDAB500F4E1B4 /* DoIt.xcdatamodeld */; };
+		AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		AD518D2C26EFD91B00F4E1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD518D2F26EFD91B00F4E1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD518D3126EFD91B00F4E1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD518D4426EFDAB500F4E1B4 /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
+		AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		AD518D2526EFD91900F4E1B4 /* WatchTasks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AD518D4026EFDA0A00F4E1B4 /* Database */,
+				AD518D3F26EFD9FD00F4E1B4 /* Views */,
 				AD518D2626EFD91900F4E1B4 /* ContentView.swift */,
 				AD518D2826EFD91900F4E1B4 /* WatchTasksApp.swift */,
 				AD518D2A26EFD91900F4E1B4 /* ComplicationController.swift */,
@@ -129,6 +135,38 @@
 				AD518D2F26EFD91B00F4E1B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD518D3F26EFD9FD00F4E1B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D4226EFDA4700F4E1B4 /* FolderView */,
+				AD518D4126EFDA3C00F4E1B4 /* ToDoViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD518D4026EFDA0A00F4E1B4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AD518D4326EFDAB500F4E1B4 /* DoIt.xcdatamodeld */,
+				AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AD518D4126EFDA3C00F4E1B4 /* ToDoViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToDoViews;
+			sourceTree = "<group>";
+		};
+		AD518D4226EFDA4700F4E1B4 /* FolderView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FolderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD518D2926EFD91900F4E1B4 /* WatchTasksApp.swift in Sources */,
+				AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */,
+				AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */,
 				AD518D2726EFD91900F4E1B4 /* ContentView.swift in Sources */,
 				AD518D2B26EFD91900F4E1B4 /* ComplicationController.swift in Sources */,
 			);
@@ -574,6 +614,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD518D4326EFDAB500F4E1B4 /* DoIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD518D4426EFDAB500F4E1B4 /* DoIt.xcdatamodel */,
+			);
+			currentVersion = AD518D4426EFDAB500F4E1B4 /* DoIt.xcdatamodel */;
+			path = DoIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AD518D0C26EFD91600F4E1B4 /* Project object */;
 }

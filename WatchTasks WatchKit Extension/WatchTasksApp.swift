@@ -14,6 +14,7 @@ struct WatchTasksApp: App {
             NavigationView {
                 ContentView()
             }
+            .environment(\.managedObjectContext, PersistentController.shared.container.viewContext)
         }
     }
 }
