@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1A8EBA26F3ABE80069192E /* AddNewFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A8EB926F3ABE80069192E /* AddNewFolder.swift */; };
 		AD518D1726EFD91600F4E1B4 /* WatchTasks WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD518D1626EFD91600F4E1B4 /* WatchTasks WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD518D1C26EFD91800F4E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518D1B26EFD91800F4E1B4 /* Assets.xcassets */; };
 		AD518D2226EFD91900F4E1B4 /* WatchTasks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD518D2126EFD91900F4E1B4 /* WatchTasks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD1A8EB926F3ABE80069192E /* AddNewFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFolder.swift; sourceTree = "<group>"; };
 		AD518D1226EFD91600F4E1B4 /* WatchTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD518D1626EFD91600F4E1B4 /* WatchTasks WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTasks WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD518D1B26EFD91800F4E1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */,
+				AD1A8EB926F3ABE80069192E /* AddNewFolder.swift */,
 			);
 			path = FolderView;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */,
 				AD518D4926EFDD5F00F4E1B4 /* FolderView.swift in Sources */,
 				AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */,
+				AD1A8EBA26F3ABE80069192E /* AddNewFolder.swift in Sources */,
 				AD518D2726EFD91900F4E1B4 /* ContentView.swift in Sources */,
 				AD518D2B26EFD91900F4E1B4 /* ComplicationController.swift in Sources */,
 			);
