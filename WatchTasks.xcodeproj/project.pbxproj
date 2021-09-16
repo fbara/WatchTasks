@@ -17,6 +17,7 @@
 		AD518D3026EFD91B00F4E1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518D2F26EFD91B00F4E1B4 /* Preview Assets.xcassets */; };
 		AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4326EFDAB500F4E1B4 /* DoIt.xcdatamodeld */; };
 		AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */; };
+		AD518D4926EFDD5F00F4E1B4 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		AD518D3126EFD91B00F4E1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD518D4426EFDAB500F4E1B4 /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
+		AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		AD518D4226EFDA4700F4E1B4 /* FolderView */ = {
 			isa = PBXGroup;
 			children = (
+				AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */,
 			);
 			path = FolderView;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				AD518D2926EFD91900F4E1B4 /* WatchTasksApp.swift in Sources */,
 				AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */,
+				AD518D4926EFDD5F00F4E1B4 /* FolderView.swift in Sources */,
 				AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */,
 				AD518D2726EFD91900F4E1B4 /* ContentView.swift in Sources */,
 				AD518D2B26EFD91900F4E1B4 /* ComplicationController.swift in Sources */,
