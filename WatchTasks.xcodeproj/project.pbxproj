@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD1A8EBA26F3ABE80069192E /* AddNewFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A8EB926F3ABE80069192E /* AddNewFolder.swift */; };
+		AD1A8EBC26F3C9F20069192E /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A8EBB26F3C9F20069192E /* ToDoListView.swift */; };
 		AD518D1726EFD91600F4E1B4 /* WatchTasks WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD518D1626EFD91600F4E1B4 /* WatchTasks WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD518D1C26EFD91800F4E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD518D1B26EFD91800F4E1B4 /* Assets.xcassets */; };
 		AD518D2226EFD91900F4E1B4 /* WatchTasks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD518D2126EFD91900F4E1B4 /* WatchTasks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -19,6 +20,7 @@
 		AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4326EFDAB500F4E1B4 /* DoIt.xcdatamodeld */; };
 		AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */; };
 		AD518D4926EFDD5F00F4E1B4 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */; };
+		ADAF11A726F4E002008E923A /* AddNewTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF11A626F4E002008E923A /* AddNewTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		AD1A8EB926F3ABE80069192E /* AddNewFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFolder.swift; sourceTree = "<group>"; };
+		AD1A8EBB26F3C9F20069192E /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		AD518D1226EFD91600F4E1B4 /* WatchTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD518D1626EFD91600F4E1B4 /* WatchTasks WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTasks WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD518D1B26EFD91800F4E1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		AD518D4426EFDAB500F4E1B4 /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		AD518D4626EFDB5400F4E1B4 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
 		AD518D4826EFDD5F00F4E1B4 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		ADAF11A626F4E002008E923A /* AddNewTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 		AD518D4126EFDA3C00F4E1B4 /* ToDoViews */ = {
 			isa = PBXGroup;
 			children = (
+				AD1A8EBB26F3C9F20069192E /* ToDoListView.swift */,
+				ADAF11A626F4E002008E923A /* AddNewTodo.swift */,
 			);
 			path = ToDoViews;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 			files = (
 				AD518D2926EFD91900F4E1B4 /* WatchTasksApp.swift in Sources */,
 				AD518D4726EFDB5400F4E1B4 /* PersistentController.swift in Sources */,
+				ADAF11A726F4E002008E923A /* AddNewTodo.swift in Sources */,
+				AD1A8EBC26F3C9F20069192E /* ToDoListView.swift in Sources */,
 				AD518D4926EFDD5F00F4E1B4 /* FolderView.swift in Sources */,
 				AD518D4526EFDAB500F4E1B4 /* DoIt.xcdatamodeld in Sources */,
 				AD1A8EBA26F3ABE80069192E /* AddNewFolder.swift in Sources */,
