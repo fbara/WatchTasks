@@ -29,7 +29,7 @@ struct ToDoListView: View {
         List {
             ForEach(results) { item in
                 HStack {
-                    NavigationLink(destination: Text("Update todo"),
+                    NavigationLink(destination: AddNewTodo(todoItem: item, accentColor: accentColor, folderName: folderName),
                                    label: {
                         Text(item.title ?? "")
                             .bold()
@@ -44,7 +44,7 @@ struct ToDoListView: View {
                 }
             }
             
-            NavigationLink(destination: Text("Add new todo"),
+            NavigationLink(destination: AddNewTodo(accentColor: accentColor, folderName: folderName),
                            label: {
                 HStack {
                     Spacer()

@@ -21,7 +21,36 @@ struct AddNewTodo: View {
     
     var body: some View {
         VStack(spacing: 15) {
+            TextField("Add new todo", text: $todoTitle, prompt: Text("Add new prompt"))
             
+            Button(action: addUpdateTodo) {
+                Text(todoItem == nil ? "Add Todo" : "Update")
+                    .padding(.vertical, 10)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .background(Color(accentColor))
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+            .buttonStyle(PlainButtonStyle())
+            .disabled(todoTitle == "")
+            
+            Button(action: deleteTodo) {
+                Text("Delete")
+                    .padding(.vertical, 10)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .background(Color(accentColor))
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+            .buttonStyle(PlainButtonStyle())
+            .opacity(todoItem == nil ? 0.0 : 1.0)
+            
+        }
+        .navigationTitle(todoItem == nil ? "Add Todo" : "Update Todo")
+        .onAppear {
+            if let todo = todoItem {
+                todoTitle = todo.title ?? ""
+            }
         }
     }
     
